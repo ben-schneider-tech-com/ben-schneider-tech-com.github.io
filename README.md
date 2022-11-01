@@ -54,7 +54,7 @@ Note: your command shoud look something like:
 14. run `git push`
 15. Go to *your_github_username.github.io* to see your website!
 
-![](https://github.com/ben-schneider-tech-com/ben-schneider-tech-com.github.io/blob/main/resume_demo.gif)
+![](https://github.com/ben-schneider-tech-com/ben-schneider-tech-com.github.io/blob/main/my_resume_demo.gif)
 
 ## **More Resources**   
 - **Markdown** is a simple but powerful markup tool for creating web documentation. An interactive tutorial on how to use markdown can be found [here](https://www.markdowntutorial.com/).  
