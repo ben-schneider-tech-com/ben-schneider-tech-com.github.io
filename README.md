@@ -11,7 +11,7 @@ This README describes the process for making your resume into a static website u
 -----------
 ### **Creating a Jekyll static website for your resume**
 A static website is a good way to host resumes and documentation because it creates a centralized up-to-date resource for people to reference. Instead of having to keep track of how you have distributed copies, you can just update the website. This makes maintaining changing resources like resumes and documentation easy. To create your static website do the following:
-1. Install Jekyll on your system by [following these instructions](https://jekyllrb.com/docs/installation/)  
+1. Install Jekyll and Ruby on your system by [following these instructions](https://jekyllrb.com/docs/installation/)  
 2. Open a console in the directory you want your static website project to be in
 3. Run `jekyll new resume` to create your static website project
 
@@ -45,8 +45,8 @@ By using version-control like Git to control the source of your static website h
 5. Click `create repository`
 8. Copy the url under the under the *quick setup* section in the newly created repository
 9. open a console
-10. run git clone with the first argument being copied url with your token and an @ sign prefixing the guthub.com part of the url.  
-Note: your command should look something like:  
+10. run git clone with the first argument being the copied url with your token and an @ sign prefixing the guthub.com part of the url.  
+Note: your command should look *something* like:  
 `git clone https://ghp_7vPZBJGcmSWN0nsCVY7fjNCsmxWc6B4IGBaQ@github.com/ben-schneider-tech-com/website.git`  
 11. Copy and paste the contents of your jekyll static website project into the newly created repository directory
 12. run `git add *`
