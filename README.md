@@ -55,8 +55,6 @@ Note: your command should look something like:
 15. Go to *your_github_username.github.io* to see your website!
 
 
-
-### **Example Resume**
 ![](https://github.com/ben-schneider-tech-com/ben-schneider-tech-com.github.io/blob/main/my_resume_demo.gif)
 
 ## **More Resources**   
