@@ -71,3 +71,5 @@ Note: your command should look something like:
 ### **Why is Markdown better than a word processor?**
 Markdown is a powerful, human-readable way of formatting test. Markdown is very portable and easy to host on websites. It is also very easy for many different contributors to work on a markdown document. If the document was written in a word processor it would require all contributors to have installed (or purchased) that word processor. Markdown allows for anyone to contribute to a centrally hosted web resource with minimal prerequisite software.
 
+### **Why is my resume not showing up?**
+This often happens when the Jekyll project files are copy and pasted into the wrong directory. Compare your Github repo to this project to make sure that the project files are aranged in the same way.
