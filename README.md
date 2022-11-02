@@ -1,12 +1,12 @@
 # **How to Host Your Resume using Github Pages**
 ## **Purpose**
 ----------
-This README describes the process for making your resume into a static website using Jekyll and how to host that website using Github pages. Also, this README explains how these practical steps are related to Etter's general principles of technical writing.
+This README describes the process for making your resume into a static website using Jekyll and how to host that website using Github pages. Also, this README explains how these practical steps are related to Etter's general principles of technical writing as described in *Modern Technical Writing: An Introduction to Software Documentation*.
 
 ## **Prerequisites**
 -----------
 - You must have an up-to-date resume formatted in markdown.
-- you must have a Markdown editor
+- You must have a Markdown editor
 
 ## **Instructions**
 -----------
@@ -33,18 +33,18 @@ In this step you will view the website in the browser. This can be done by runni
 After running these commands, the default Jekyll project template should be visible in your browser.
 
 ### **Adding your resume to your Jekyll website**  
-Because your resume is written in a lightweight markup language like Markdown, it easy easy to add your formatted resume to your static website. Jekyll can then easily turn your markdown resume into HTML for your website. That is what makes Markdown so good for creating web-hosted documents. This is why Andrew Etter advocates for using tools like Markdown for these kinds of documents.
+Because your resume is written in a lightweight markup language like Markdown, it easy to add your formatted resume to your static website. Jekyll can then easily turn your markdown resume into HTML for your website. That is what makes Markdown so good for creating web-hosted documents. This is why Andrew Etter advocates for using tools like Markdown for these kinds of documents.
 
- In this step we will combine the markdown-formatted resume and the Jekyll projet to create add your resume contents to the static website. This is done by copying your markdown resume into the Jekyll project, and editing some files in the Jekyll project.
+ In this step, we will combine the markdown-formatted resume and the Jekyll project to create add your resume contents to the static website. This is done by copying your markdown resume into the Jekyll project, and editing some files in the Jekyll project.
 
 1. Copy and paste your the body of your resume into the **index.markdown** file in the main project directory under the dashed line
 2. Change the layout variable in the dashed line block from **home** to **default**
 4. Write your contact information in the **about.markdown** file
 4. Delete the _posts directory
 5. Open the **config.yml** [yaml file](https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started) in the main directory
-6. Edit the `title` variable to be your name
-7. Edit the `email` variable to be your email  
-8. Delete the `description` variable
+6. Edit the **title** variable to be your name
+7. Edit the **email** variable to be your email  
+8. Delete the **description** variable
 9. Rerun `jekyll serve --watch` to see your resume at [`http://127.0.0.1:4000`](http://127.0.0.1:4000)
 10. Add a theme by following [this Github Pages tutorial](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll) **(optional)**    
 
@@ -58,23 +58,24 @@ To host your static website on Github Pages you will need to add it to a Github 
 1. [Download and install git](https://git-scm.com/downloads)
 1. Create an account on [github.com](https://github.com/)
 2. Navigate to [create token](https://github.com/settings/tokens/new)
-2. Create the token with the *repo* permission
+2. Create the token with the **repo** permission
 4. Save the token on your computer
 2. Click create repository
-3. Name the repository with the name *your_github_username.github.io*
-4. Click `public repository`
-5. Click `create repository`
-8. Copy the url under the under the *quick setup* section in the newly created repository
-9. open a console
-10. run git clone with the first argument being the copied url with your token and an @ sign prefixing the github.com part of the url.  
+3. Name the repository *your_github_username.github.io*
+4. Click **public repository**
+5. Click **create repository**
+8. Copy the URL under the under the *quick setup* section in the newly created repository
+9. Open a console
+10. Run git clone with the first argument being the copied URL with your token and an @ sign prefixing the github.com part of the URL.  
 Note: your command should look *something* like:  
 `git clone https://ghp_7vPZBJGcmSWN0nsCVY7fjNCsmxWc6B4IGBaQ@github.com/ben-schneider-tech-com/website.git`  
 11. Copy and paste the contents of your jekyll static website project into the newly created repository directory
-12. run `git add *`
-13. run `git commit -m "my resume website"`
-14. run `git push`
+12. Run `git add *`
+13. Run `git commit -m "my resume website"`
+14. Run `git push`
 15. Go to *your_github_username.github.io* to see your website!
   
+**Demo of creating your repository and hosting your static website**  
 ![](https://github.com/ben-schneider-tech-com/ben-schneider-tech-com.github.io/blob/main/my_resume_demo.gif)  
   
 Once this step is completed you will have your resume hosted on Github Pages. You will also have created a Github repository and added your Jekyll project files to that repository.  
@@ -94,5 +95,5 @@ Once this step is completed you will have your resume hosted on Github Pages. Yo
 Markdown is a powerful, human-readable way of formatting test. Markdown is very portable and easy to host on websites. It is also very easy for many different contributors to work on a markdown document. If the document was written in a word processor it would require all contributors to have installed (or purchased) that word processor. Markdown allows for anyone to contribute to a centrally hosted web resource with minimal prerequisite software.
 
 ### **Why is my resume not showing up?**
-This often happens when the Jekyll project files are copy and pasted into the wrong directory. Compare your Github repo to this project to make sure that the project files are aranged in the same way.  
+This often happens when the Jekyll project files are copy and pasted into the wrong directory. Compare your Github repo to this project to make sure that the project files are arranged in the same way.  
 This can also be caused by visiting the wrong URL make sure you are visiting `your_github_username.github.io`.
