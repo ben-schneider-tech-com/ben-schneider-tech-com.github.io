@@ -33,13 +33,13 @@ In this step you will view the website in the browser. This can be done by runni
 After running these commands, the default Jekyll project template should be visible in your browser.
 
 ### **Adding your resume to your Jekyll website**  
-Because your resume is written in a lightweight markup language like Markdown, it easy to add your formatted resume to your static website. Jekyll can then easily turn your markdown resume into HTML for your website. That is what makes Markdown so good for creating web-hosted documents. This is why Andrew Etter advocates for using tools like Markdown for these kinds of documents.
+As your resume is written in a lightweight markup language like Markdown, it easy to add your formatted resume to your static website. Jekyll can then easily turn your markdown resume into HTML for your website. That is what makes Markdown so good for creating web-hosted documents. This is why Andrew Etter advocates for using tools like Markdown for these kinds of documents.
 
  In this step, we will combine the markdown-formatted resume and the Jekyll project to create add your resume contents to the static website. This is done by copying your markdown resume into the Jekyll project, and editing some files in the Jekyll project.
 
 1. Copy and paste your the body of your resume into the **index.markdown** file in the main project directory under the dashed line
 2. Change the layout variable in the dashed line block from **home** to **default**
-4. Write your contact information in the **about.markdown** file
+3. Write your contact information in the **about.markdown** file
 4. Delete the _posts directory
 5. Open the **config.yml** [yaml file](https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started) in the main directory
 6. Edit the **title** variable to be your name
@@ -56,24 +56,24 @@ Andrew Etter proposes using version-control like Git to control the source of yo
 To host your static website on Github Pages you will need to add it to a Github repository. This is done by creating a Github repository and using git to add the files of your project to the repository.  
 
 1. [Download and install git](https://git-scm.com/downloads)
-1. Create an account on [github.com](https://github.com/)
-2. Navigate to [create token](https://github.com/settings/tokens/new)
-2. Create the token with the **repo** permission
-4. Save the token on your computer
-2. Click create repository
-3. Name the repository *your_github_username.github.io*
-4. Click **public repository**
-5. Click **create repository**
-8. Copy the URL under the under the *quick setup* section in the newly created repository
-9. Open a console
-10. Run git clone with the first argument being the copied URL with your token and an @ sign prefixing the github.com part of the URL.  
+2. Create an account on [github.com](https://github.com/)
+3. Navigate to [create token](https://github.com/settings/tokens/new)
+4. Create the token with the **repo** permission
+5. Save the token on your computer
+6. Click create repository
+7. Name the repository *your_github_username.github.io*
+8. Click **public repository**
+9. Click **create repository**
+10. Copy the URL under the under the *quick setup* section in the newly created repository
+11. Open a console
+12. Run git clone with the first argument being the copied URL with your token and an @ sign prefixing the github.com part of the URL.  
 Note: your command should look *something* like:  
 `git clone https://ghp_7vPZBJGcmSWN0nsCVY7fjNCsmxWc6B4IGBaQ@github.com/ben-schneider-tech-com/website.git`  
-11. Copy and paste the contents of your jekyll static website project into the newly created repository directory
-12. Run `git add *`
-13. Run `git commit -m "my resume website"`
-14. Run `git push`
-15. Go to *your_github_username.github.io* to see your website!
+13. Copy and paste the contents of your jekyll static website project into the newly created repository directory
+14. Run `git add *`
+15. Run `git commit -m "my resume website"`
+16. Run `git push`
+17. Go to **your_github_username.github.io** to see your website!
   
 **Demo of creating your repository and hosting your static website**  
 ![](https://github.com/ben-schneider-tech-com/ben-schneider-tech-com.github.io/blob/main/my_resume_demo.gif)  
