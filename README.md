@@ -16,17 +16,17 @@ This README describes the process for making your resume into a static website u
 You can create your own static website by installing Jekyll and creating a new Jekyll project.  
 
 1. Install Jekyll and Ruby on your system by [following these instructions](https://jekyllrb.com/docs/installation/)  
-2. Open a console in the directory you want your static website project to be in
+2. [Open a console in the directory you want your static website project to be located](https://tutorial.djangogirls.org/en/intro_to_command_line/)
 3. Run `jekyll new resume` to create your static website project  
 
-After running the above commmands in a console, you should now have a Jekyll project on your system.  
+After running the above commands in a console, you should now have a Jekyll project on your system.  
 
 ### **Viewing your website in the browser**  
 As is described in Andrew Etter's book, one of the advantages of using static websites is that they are fast and easy to work with locally. You can quickly see how your website looks without long and elaborate build processes.    
 
 In this step you will view the website in the browser. This can be done by running a few simple commands as follows: 
 
-1. Navigate your console into the newly created project directory  
+1. [Navigate your console](https://tutorial.djangogirls.org/en/intro_to_command_line/) into the newly created project directory  
 2. Run `jekyll serve --watch`  
 3. Open the URL [`http://127.0.0.1:4000`](http://127.0.0.1:4000) in a browser  
 
@@ -40,7 +40,7 @@ As your resume is written in a lightweight markup language like Markdown, it eas
 1. Copy and paste your the body of your resume into the **index.markdown** file in the main project directory under the dashed line
 2. Change the layout variable in the dashed line block from **home** to **default**
 3. Write your contact information in the **about.markdown** file
-4. Delete the _posts directory
+4. Delete the **_posts** directory
 5. Open the **config.yml** [yaml file](https://www.cloudbees.com/blog/yaml-tutorial-everything-you-need-get-started) in the main directory
 6. Edit the **title** variable to be your name
 7. Edit the **email** variable to be your email  
@@ -53,11 +53,11 @@ After this step is completed, you should have your resume displayed in your Jeky
 ### **Hosting your Jekyll website in Github Pages**
 Andrew Etter proposes using version-control like Git to control the source of your static website. This approach has several benefits. Git tracks changes made to documentation so you can always see how the documentation has been updated and what is new. Git also allows other members of the project to easily contribute to the project. All they need to do is make a pull request containing information to add to the static website.  
 
-To host your static website on Github Pages you will need to add it to a Github repository. This is done by creating a Github repository and using git to add the files of your project to the repository.  
+To host your static website on Github Pages, you will need to add it to a Github repository. This is done by creating a Github repository and using git to add the files of your project to the repository. This can be done as follows:  
 
 1. [Download and install git](https://git-scm.com/downloads)
 2. Create an account on [github.com](https://github.com/)
-3. Navigate to [create token](https://github.com/settings/tokens/new)
+3. Navigate to [create token](https://github.com/settings/tokens/new) on Github
 4. Create the token with the **repo** permission
 5. Save the token on your computer
 6. Click create repository
@@ -65,7 +65,7 @@ To host your static website on Github Pages you will need to add it to a Github 
 8. Click **public repository**
 9. Click **create repository**
 10. Copy the URL under the under the *quick setup* section in the newly created repository
-11. Open a console
+11. [Open a console](https://tutorial.djangogirls.org/en/intro_to_command_line/)
 12. Run git clone with the first argument being the copied URL with your token and an @ sign prefixing the github.com part of the URL.  
 Note: your command should look *something* like:  
 `git clone https://ghp_7vPZBJGcmSWN0nsCVY7fjNCsmxWc6B4IGBaQ@github.com/ben-schneider-tech-com/website.git`  
@@ -75,7 +75,7 @@ Note: your command should look *something* like:
 16. Run `git push`
 17. Go to **your_github_username.github.io** to see your website!
   
-**Demo of creating your repository and hosting your static website**  
+**Demo of creating a Github repository and using it to host a Jekyll project**  
 ![](https://github.com/ben-schneider-tech-com/ben-schneider-tech-com.github.io/blob/main/my_resume_demo.gif)  
   
 Once this step is completed you will have your resume hosted on Github Pages. You will also have created a Github repository and added your Jekyll project files to that repository.  
@@ -96,4 +96,4 @@ Markdown is a powerful, human-readable way of formatting test. Markdown is very 
 
 ### **Why is my resume not showing up?**
 This often happens when the Jekyll project files are copy and pasted into the wrong directory. Compare your Github repo to this project to make sure that the project files are arranged in the same way.  
-This can also be caused by visiting the wrong URL make sure you are visiting `your_github_username.github.io`.
+This can also be caused by visiting the wrong URL make sure you are visiting `your_github_username.github.io`. The `your_github_username` field should be replaced by the name of your Github account.
