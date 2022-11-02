@@ -67,15 +67,15 @@ To host your static website on Github Pages, you will need to add it to a Github
 10. Copy the URL under the under the *quick setup* section in the newly created repository
 11. [Open a console](https://tutorial.djangogirls.org/en/intro_to_command_line/)
 12. Run git clone with the first argument being the copied URL with your token and an @ sign prefixing the github.com part of the URL.  
-Note: your command should look *something* like:  
-`git clone https://ghp_7vPZBJGcmSWN0nsCVY7fjNCsmxWc6B4IGBaQ@github.com/ben-schneider-tech-com/website.git`  
+**Note:** your command should look *something* like:  
+`git clone https://ghp_7vPZBJGcmSWN0nsCVY7fjNCsmxWc6B4IGBaQ@github.com/ben-schneider-tech-com/ben-schneider-tech-com.github.io.git`  
 13. Copy and paste the contents of your jekyll static website project into the newly created repository directory
 14. Run `git add *`
 15. Run `git commit -m "my resume website"`
 16. Run `git push`
 17. Go to **your_github_username.github.io** to see your website!
   
-**Demo of creating a Github repository and using it to host a Jekyll project**  
+**Demo of creating a Github repository and using it to host a Jekyll website**  
 ![](https://github.com/ben-schneider-tech-com/ben-schneider-tech-com.github.io/blob/main/my_resume_demo.gif)  
   
 Once this step is completed you will have your resume hosted on Github Pages. You will also have created a Github repository and added your Jekyll project files to that repository.  
