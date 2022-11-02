@@ -4,7 +4,7 @@
 layout: default
 title: Ben Schneider
 ---
-
+schnei19@myumanitoba.ca
 
 ## Education 
 -----
